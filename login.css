@@ -1,0 +1,12 @@
+body{
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+}
+
+input{
+  width: 200px;
+  height: 40px;
+  margin-left: 42%;
+  margin-bottom: 15px;
+  display: block;
+}

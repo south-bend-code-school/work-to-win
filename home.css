@@ -1,0 +1,136 @@
+body {
+    background-color:#95FFEB ;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+nav{
+  background-color: midnightblue;
+    color: black;
+}
+
+a{
+  font-size: 24px;
+
+}
+
+li{
+  background-color: midnightblue;
+  /* font-size: 24px !important; */
+  text-align: center;
+}
+h3 {
+    color:plum;
+    font-size: 20px;
+
+}
+h5{
+color:black;
+font-size: 15px;
+
+}
+p {
+    color:orchid;
+}
+h1 {
+    color: black;
+    font-size: 30px;
+    text-align: left;
+
+
+
+}
+h8{
+font-size: 30px;
+
+}
+.template{
+height: 10px;
+width: 10px;
+image-align: center;
+padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 50px;
+   padding-left: 80px;
+
+}
+.center{
+  display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+
+}
+img{
+ padding-bottom: 50px;
+ /* display: block; */
+}
+.logo{
+  height:100px;
+  width: 200px;
+  margin-top: 100px;
+}
+.achievment{
+  box-shadow: 5px 5px 10px #5b5b5b5b;
+  width: 500px;
+}
+
+.image{
+  display: inline-block;
+}
+
+.info{
+  display: inline-block;
+  /* border: solid 2px black; */
+}
+
+.name{
+  /* border-left: solid 5px black;
+  border-top: solid 5px black;
+  border-right: solid 5px black; */
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.date{
+  /* border-left: solid 5px black;
+  border-right: solid 5px black; */
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.points{
+  display: inline-block;
+}
+
+.task{
+  /* border: solid 5px black; */
+}
+
+.bigPoints{
+    box-shadow: 5px 2px 5px #5b5b5b5b;
+  text-align: center;
+  width:100%
+}
+
+p{
+ font-size: 20px;
+}
+
+#link{
+  padding: 20px;
+  background-color: magenta;
+  color: white;
+  margin-left: 550px;
+}
+
+.profile{
+zoom: 20
+}
+
+/* #logout{
+  padding-right: 20px;
+} */

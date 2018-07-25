@@ -1,0 +1,53 @@
+li{
+margin-top: 10px;
+background-color: midnightblue;
+text-align: center;
+}
+h3{
+font-size:27px;
+
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+
+}
+ul{
+background-color: midnightblue;
+height: 80px;
+font-size: 24px;
+margin: 0px;
+padding: 0px;
+
+}
+.dropdown-content{
+height: auto;
+width: 50px !important;
+
+}
+
+a{
+color: white;
+}
+.t{
+margin-left: 10px;
+
+}
+
+.logo{
+  margin-top: 50px;
+}
+button{
+  width:100px;
+  height:50px;
+  background-color:midnightblue;
+  color:white;
+  border:none;
+}
+.login{
+margin-bottom: 50px;
+
+}
+.form{
+  border-left: 2px solid lightslategrey; 
+
+}

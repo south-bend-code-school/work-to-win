@@ -1,0 +1,117 @@
+<DOCTYPE html>
+  <html>
+  <head>
+    <title>Work to Win-Challenges</title>
+    <!--CSS-->
+  <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+<!--Scripts-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+
+   <script type="text/javascript" src="./challenges.js"></script>
+  </head>
+  <body style="background-color: #7DBFBB;">
+    <!-- nav -->
+    <nav class="row">
+      <ul>
+        <img class="col s12 m2 l2 left-align " src="worktowinlogo.png"style="height:50px; width:65px; margin-top: 5px!important;">
+        <li class="col s12 m2 l2"><a style="font-size: 24px;" href="home.html">Home</a></li>
+        <li class="col s12 m2 l2"><a style="font-size: 24px;" href="tasks.html">Tasks</a></li>
+        <li class="col s12 m2 l2"><a style="font-size: 24px;" href="challenges.html">Challenges</a></li>
+        <li class="col s12 m2 l2"><a style="font-size: 24px;" href="charity.html">Donate</a></li>
+        <li class="col s12 m1 l1 offset-m1 offset-l1"><a style="font-size: 24px;" href="">Logout</a></li>
+      </ul>
+
+    </nav>
+
+      <div class="center">
+        <h1>Work to Win</h1>
+        <h2>Challenges</h2>
+      </div>
+
+    </div>
+    <h4>Current Challenges</h4>
+    <table id="currentChallenges" class="striped">
+     <thead>
+       <tr>
+           <th>Friend</th>
+           <th>Challenge</th>
+           <th>Date Challenged</th>
+           <th>Accept/Deny</th>
+       </tr>
+     </thead>
+
+     <tbody>
+       <!-- <tr>
+         <td>Alvin</td>
+         <td>Eclair</td>
+         <td>3-23-13</td>
+         <td>Accept/Deny</td>
+       </tr>
+       <tr>
+         <td>Alan</td>
+         <td>Jellybean</td>
+         <td>5-23-06</td>
+         <td>Accept/Deny</td>
+       </tr>
+       <tr>
+         <td>Jonathan</td>
+         <td>Lollipop</td>
+         <td>4-04-18</td>
+         <td>Accept/Deny</td>
+       </tr> -->
+     </tbody>
+ </table>
+
+<br>
+  <br>
+    <div class="center">
+      <a href="challengeFriends.html" class="waves-effect waves-light btn-large">Challenge Friends</a>
+    </div>
+  </br>
+</br>
+
+       <h4>Past Challenges</h4>
+         <table class="striped">
+        <thead>
+          <tr>
+              <th>Friend</th>
+              <th>Challenge</th>
+              <th>Date Challenged</th>
+              <th>Accept/Deny</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>3-23-13</td>
+            <td>Accept/Deny</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>5-23-06</td>
+            <td>Accept/Deny</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>4-04-18</td>
+            <td>Accept/Deny</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="logo">
+        <h5 class="center-align"><img src="worktowinbanner.png" height="100px"></h5>
+      </div>
+  </body>
+  </html>

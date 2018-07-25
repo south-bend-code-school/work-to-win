@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+
+  <script src="tasks.js"></script>
+</head>
+<body style="background-color:#C9DAF5 ">
+
+
+
+  <nav class="row">
+    <ul>
+      <img class="col s12 m2 l2 left-align " src="worktowinlogo.png"style="height:50px; width:65px; margin-top: 5px!important;">
+      <li class="col s12 m2 l2"><a style="font-size: 24px;" href="home.html">Home</a></li>
+      <li class="col s12 m2 l2"><a style="font-size: 24px;" href="tasks.html">Tasks</a></li>
+      <li class="col s12 m2 l2"><a style="font-size: 24px;" href="challenges.html">Challenges</a></li>
+      <li class="col s12 m2 l2"><a style="font-size: 24px;" href="charity.html">Donate</a></li>
+      <li class="col s12 m1 l1 offset-m1 offset-l1"><a style="font-size: 24px;" href="">Logout</a></li>
+    </ul>
+
+  </nav>
+
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+
+<h1>Tasks</h2>
+<div id='tasks' class="container">
+
+
+<!--
+    <div class="row card teal">
+        <div class="col s12 m10 l10 card-content">
+          <h5>Take out the trash</h5>
+       </div>
+       <div class="col s12 m2 l2 card-content">
+        <button><i class="material-icons">delete</i></button>
+       </div>
+    </div>
+
+      <div class="row card teal">
+          <div class="col s12 m10 l10 card-content">
+            <h5>Do the dishes</h5>
+         </div>
+         <div class="col s12 m2 l2 card-content">
+           <button><i class="material-icons">delete</i></button>
+         </div>
+      </div>
+
+      <div class="row card teal">
+          <div class="col s12 m10 l10 card-content">
+            <h5>Walk the dog</h5>
+         </div>
+         <div class="col s12 m2 l2 card-content">
+           <button><i class="material-icons">delete</i></button>
+         </div>
+      </div>
+      <div class="row card teal">
+          <div class="col s12 m10 l10 card-content">
+            <h5>Drink water</h5>
+         </div>
+         <div class="col s12 m2 l2 card-content">
+           <button><i class="material-icons">delete</i></button>
+         </div>
+      </div> -->
+
+        <div class="col s12 m3">
+          <div class="card teal">
+            <div class="card-content center">
+
+              <button class="teal" data-target="modal" id="btn">Add task</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal" id="modal">
+          <div class="row modal-content">
+            <label style="font-size: 32px" class="col s12 m2 l2" for="task">Task: </label>
+            <input class="col s12 m10 l10" type="text" id="task">
+          </div>
+          <div class="modal-footer">
+            <button id="createBtn">Create task</button>
+          </div>
+        </div>
+
+
+      <div class="logo">
+        <h5 class="center-align"><img src="worktowinbanner.png" height="100px"></h5>
+      </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.card-content{
+  height: 500px !important;
+}
+
+.card-title{
+  height: 200px;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+.col{
+height: 500px;
+
+}
+
+.logo{
+  margin-top: 100px;
+}

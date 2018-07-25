@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Work to Win-Login</title>
+  <!--CSS-->
+    <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+     <link rel="stylesheet" href="login.css">
+  <!--Scripts-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+
+   <script type="text/javascript" src="./login.js"></script>
+
+</head>
+<body style="background-color: #E2FCF8;">
+  <h1>Login</h1>
+  <img src="work_to_win_logo.png" height="50px">
+  <div class="textbox">
+  <!-- Email -->
+     <div class="row input-field">
+       <input class="col s12 m6 offset-m3" id="email" name="email" placeholder="Email" type="email" class="validate">
+     </div>
+   </div>
+   <!-- Password -->
+   <div class="row">
+      <div class="input-field col s12">
+        <input class="col s12 m6 offset-m3" id="password" placeholder="Enter Password" type="password" class="validate">
+        <!-- <label for="password">Password</label> -->
+      </div>
+    </div>
+    <!-- Login Button -->
+<button id="submitButton" class="waves-effect waves-light btn-large">Login</button>
+
+<!-- <div class="row">
+    <div id="email-list" class="col s15 offset-s1"></div>
+  </div> -->
+
+</body>
+</html>

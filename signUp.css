@@ -1,0 +1,29 @@
+body{
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+label{
+  font-size: 18px;
+  color: black;
+}
+
+input{
+  font-size: 18px;
+  width:200px;
+  height:50px;
+  /* margin-left:43%;
+  margin-bottom: 15px; */
+  align-items: center;
+  display: block;
+}
+
+#image{
+  font-size: 14px;
+}
+
+button{
+  width:200px;
+  height:50px;
+}

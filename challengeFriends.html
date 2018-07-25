@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Work to Win-Challenge Friends</title>
+<!--CSS-->
+  <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   <link rel="stylesheet" href="challengeFriends.css">
+<!--Scripts-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+
+   <script type="text/javascript" src="./challengeFriends.js"></script>
+</head>
+<body style="background-color: #8FD0FF;">
+
+<!-- NAVbar -->
+<nav class="row">
+  <ul>
+    <img class="col s12 m2 l2 left-align " src="worktowinlogo.png"style="height:50px; width:65px; margin-top: 5px!important;">
+    <li class="col s12 m2 l2"><a style="font-size: 24px;" href="home.html">Home</a></li>
+    <li class="col s12 m2 l2"><a style="font-size: 24px;" href="tasks.html">Tasks</a></li>
+    <li class="col s12 m2 l2"><a style="font-size: 24px;" href="challenges.html">Challenges</a></li>
+    <li class="col s12 m2 l2"><a style="font-size: 24px;" href="charity.html">Donate</a></li>
+    <li class="col s12 m1 l1 offset-m1 offset-l1"><a style="font-size: 24px;" href="">Logout</a></li>
+  </ul>
+
+</nav>
+
+<div class="container">
+
+  <div class="row center">
+    <h2>Challenge Friends</h2>
+  </div>
+
+<div class="row">
+  <!-- left -->
+  <div class="col s12 m6">
+    <h2>Challenge</h2>
+    <div class="row">
+      <form>
+          <div class="row input-field col s12">
+            <!-- <i class="material-icons prefix">account_circle</i> -->
+            <!-- <input id="icon_prefix" type="text" class="validate"> -->
+            <!-- <label for="icon_prefix">Friend</label> -->
+            <select class="browser-default" id="friendDropDown">
+              <option value="" disabled selected>Select a Friend</option>
+
+            </select>
+
+          </div>
+
+          <div class="row input-field col s12">
+              <select class="browser-default" id="tasksDropDown">
+                <option value="" disabled selected>Select a Challenge</option>
+
+              </select>
+              <!-- <label>Type of Challenge</label> -->
+            </div>
+
+            <div class="row col s12">
+              <label for="text">Complete By</label>
+              <input id="date" type="text" class="datepicker">
+            </div>
+
+            <div class="row input-field col s12">
+              <select id="charity" class="browser-default">
+                <option value="" disabled selected>Choose a Charity</option>
+                <option value="CARE Relief Group">CARE Relief Group</option>
+                <option value="Wildlife Conservation Society">Wildlife Conservation Society</option>
+                <option value="Riley Children's Hospital">Riley Children's Hospital</option>
+                <option value="Chiara Home">Chiara Home</option>
+                <option value="La Casa de Amistad">La Casa de Amistad</option>
+              </select>
+              <!-- <label>Charity</label> -->
+            </div>
+
+
+        </form>
+
+    </div>
+  </div>
+  <!-- right -->
+  <div class="col s12 m6 right-align">
+    <h2>Friends List</h2>
+    <div class="row">
+
+      <div class="collection">
+        <a href="#!" class="collection-item">Stacy</a>
+        <a href="#!" class="collection-item">Amber</a>
+        <a href="#!" class="collection-item">Matt</a>
+        <a href="#!" class="collection-item">Alex</a>
+      </div>
+
+      <a class="btn-floating btn-large waves-effect waves-light red modal-trigger" href="#modal1"><i class="material-icons">add</i></a>
+
+
+            <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Add a Friend</h4>
+
+          <div class="row">
+           <form class="col s12">
+             <div class="row">
+               <div class="input-field col s6">
+                 <i class="material-icons prefix">account_circle</i>
+                 <input id="icon_prefix" type="text" class="validate">
+                 <label for="icon_prefix">Name</label>
+               </div>
+             </div>
+           </form>
+         </div>
+
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Add Friend</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+</div>
+
+
+
+          <!-- submit -->
+        <div id="challengebutton">
+          <button id="submitChallenge" class="btn waves-effect waves-light" type="submit" name="action">Challenge!
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+
+          <div style="margin-bottom: 50px;" class="logo">
+            <h5 class="center-align"><img src="worktowinbanner.png" height="100px"></h5>
+          </div>
+</body>
+</html>
