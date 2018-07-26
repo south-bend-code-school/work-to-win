@@ -16,11 +16,11 @@
     firebase.initializeApp(config);
 
     // character count
-    $('input#input_text, textarea#textarea2').characterCounter();
+    // $('input#input_text, textarea#textarea2').characterCounter();
 
     $('#submitButton').click(writeData);
     loadData();
-}
+  }
 
 function writeData() {
  var email = $('#email').val();
