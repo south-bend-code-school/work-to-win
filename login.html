@@ -1,45 +1,137 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Work to Win-Login</title>
-  <!--CSS-->
-    <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-     <link rel="stylesheet" href="login.css">
-  <!--Scripts-->
+  <html>
+  <head>
+    <title> Work to Win</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-     <!-- Compiled and minified JavaScript -->
-     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 
-   <script type="text/javascript" src="./login.js"></script>
+      <link rel="stylesheet" href="login.css">
 
-</head>
-<body style="background-color: #E2FCF8;">
-  <h1>Login</h1>
-  <img src="work_to_win_logo.png" height="50px">
-  <div class="textbox">
-  <!-- Email -->
-     <div class="row input-field">
-       <input class="col s12 m6 offset-m3" id="email" name="email" placeholder="Email" type="email" class="validate">
-     </div>
-   </div>
-   <!-- Password -->
-   <div class="row">
-      <div class="input-field col s12">
-        <input class="col s12 m6 offset-m3" id="password" placeholder="Enter Password" type="password" class="validate">
-        <!-- <label for="password">Password</label> -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+      <script type="text/javascript" src="login.js"></script>
+
+  </head>
+  <body style="background-color:#95FFEB ">
+
+    <nav class="row">
+      <ul>
+        <img class="col s12 m2 l2 left-align " src="worktowinlogo.png"style="height:50px; width:65px; margin-top: 5px!important;">
+      <li  class="col s12 m10 l10"><a style="text-align: right; font-size: 24px;" href="dummyDonate.html">Donate</a></li>
+
+      </ul>
+
+    </nav>
+
+
+    <div class="missionStatment">
+    <h1 style="text-align: center;">Work to Win</h1>
+
+    <div class="row wrapper">
+      <div class="col s12 m8 l8">
+        <img style="height: 500px;" src="computerIcon.png">
+        <b><h3>Mission Statement</h3></b>
+          <h3><p>"Our goal is to help you get things done in an easier, competitive way with your friends and donate to your community."</h3>
       </div>
+      <div class="col s12 m4 l4 form">
+        <div class="login">
+          <h4>Login</h4>
+
+          <!-- Email -->
+             <div class="row input-field">
+               <input class="col s12 m6 offset-m3" id="email" name="email" placeholder="Email" type="email" class="validate">
+             </div>
+           </div>
+           <!-- Password -->
+           <div class="row">
+              <div class="input-field col s12">
+                <input class="col s12 m6 offset-m3" id="password" placeholder="Enter Password" type="password" class="validate">
+                <!-- <label for="password">Password</label> -->
+              </div>
+            </div>
+            <!-- Login Button -->
+        <button id="submitButton" class="waves-effect waves-light btn-large">Login</button>
+
+
+            <div class="signup">
+              <h4>Sign Up</h4>
+              <label for="username">Username</label>
+              <Input type="text" id="username">
+              <label for"semail">Email</label>
+              <Input type="email" id="semail">
+              <label for="spassword">Password</label>
+              <Input type="password" id="spassword">
+              <label for"file">Profile Picture</label>
+              <Input type="file" id=file>
+                <br>
+                <br>
+              <button id="submitButton">Sign Up</button>
+
+        </div>
     </div>
-    <!-- Login Button -->
-<button id="submitButton" class="waves-effect waves-light btn-large">Login</button>
 
-<!-- <div class="row">
-    <div id="email-list" class="col s15 offset-s1"></div>
-  </div> -->
 
-</body>
-</html>
+
+        <!-- <h5>My Details</h5> -->
+
+        <!-- <div class="row">
+
+          <div class="col m1 image center-align">
+            <img src="https://cdn.shopify.com/s/files/1/0183/2727/products/HALO_4_PIN-2.jpg?v=1520273734" style="zoom: 10%;" align="left">
+          </div>
+          <div class="col m3 left-align info">
+            <div class="name">
+              <h4>Atriox</h4>
+            </div>
+              <h2>POINTS-60</h2>
+            <div class="task">
+                  <div class="left-align">
+                    <a href="" class="waves-effect waves-light btn-large">Challenge Friends</a>
+                  </div>
+
+              </div>
+
+
+          </div>
+
+          <div class="col s12 m8 l8 center-align">
+            <img src="ChallengeTemplate.png" style="zoom: 20%;">
+            <img src="ChallengeTemplate2.png" style="zoom: 20%;">
+            <img src="ChallengeTemplate3.png" style="zoom: 20%;">
+
+          </div>
+        </div> -->
+
+    <div class="about">
+
+      <h2>About Us</h2>
+      <div>
+
+      <div class="row">
+        <div class="col s12 m4">
+          <h4>Anika</h4>
+          <h3>Hi, my name is Anika. I am from South Bend,IN and I like to
+    write code. I got into code because I thought it would be fun and it opens up great opportunities
+    for the future. I already made a game and a website too! Coding is so fun I definitely recommend you try it.</h3>
+        </div>
+        <div class="col s12 m4">
+          <h4>Zachary</h4>
+          <h3>My name is Zachary and I love to play video games.
+          My favorite game's are Skyrim The Elder Scrolls V and From The Depths.
+          I live in Pure Michigan my favorite anti-hero is Deadpool.
+          I've had the best teachers teaching me to code some of them were Matt and Melina.
+          My favorite hobby is gaming.</h3>
+        </div>
+        <div class="col s12 m4">
+          <h4>Nicolas</h4>
+          <h3>My name is Nicolas, I am terrible at writing, anti-social, and play too many video games. I am also attempting to learn the art of blacksmithing (which can be very painful...). I am 17, and going to be a senior in highschool.</h3>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  </body>
+  </html>
